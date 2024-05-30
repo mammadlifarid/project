@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Month and Season</title>
+</head>
+
+<body>
+    <script>
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var seasons = ["Winter", "Spring", "Summer", "Autumn"];
+
+        var monthNumber = prompt("Enter the month number (1-12)");
+
+
+
+        if (monthNumber >= 1 && monthNumber <= 12) {
+            var monthName = months[monthNumber - 1];
+            var season;
+
+            if (monthNumber >= 3 && monthNumber <= 5) {
+                season = "Spring";
+            } else if (monthNumber >= 6 && monthNumber <= 8) {
+                season = "Summer";
+            } else if (monthNumber >= 9 && monthNumber <= 11) {
+                season = "Autumn";
+            } else {
+                season = "Winter";
+            }
+
+            
+            alert(`Month: ${monthName} | Season: ${season}`);
+        } else {
+            alert("Please enter a valid month number.... ");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,297 @@
+    .photo-1 {
+        position: absolute;
+        width: 1000px;
+        bottom: 40px;
+        height: 860px;
+        left: 100px;
+        margin-left: 700px;
+        animation: fadeSlideAndGrow 2s ease-in-out;
+    }
+    
+    .mindfullnes {
+        background-color: #f2f2f2;
+        height: 846px;
+    }
+    
+    .first-h2 {
+        color: black;
+        position: absolute;
+        top: 280px;
+        left: 300px;
+        inline-size: 200px;
+        overflow-wrap: break-word;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .first-p {
+        color: black;
+        position: absolute;
+        inline-size: 400px;
+        overflow-wrap: break-word;
+        left: 300px;
+        top: 390px;
+        word-spacing: 5px;
+        font-weight: 400;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    @keyframes fadeSlideAndGrow {
+        from {
+            opacity: 0;
+            transform: translateX(100%) scale(0);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0) scale(1);
+        }
+    }
+    
+    @keyframes fadeSlideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes fadeAndMoveUp {
+        from {
+            opacity: 0;
+            top: 20px;
+        }
+        to {
+            opacity: 1;
+            top: 0;
+        }
+    }
+    
+    .photo-2 {
+        width: 250px;
+        position: absolute;
+        height: 80px;
+        bottom: 240px;
+        left: 300px;
+    }
+    
+    .systematic {
+        text-align: center;
+        width: 70%;
+        margin: 50px auto;
+        animation: fadeAndMoveUp 1s ease-in-out;
+    }
+    
+    .systematic h1 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        width: 100%;
+        margin: 30px 0;
+        margin-top: 100px;
+        animation: fadeAndMoveUp 1s ease-in-out;
+    }
+    
+    .systematic p {
+        font-size: 17px;
+    }
+    
+    .systematic a {
+        color: black;
+    }
+    
+    .many-people {
+        position: relative;
+        margin-top: 180px;
+    }
+    
+    .many-people img {
+        width: 100%;
+        height: 800px;
+        top: 300px;
+    }
+    
+    .many-people .cards {
+        width: 80%;
+        height: 37%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+        position: absolute;
+        z-index: 10;
+        bottom: 300px;
+        left: 240px;
+    }
+    
+    .many-people .cards div {
+        padding: 10px;
+        width: 23%;
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .many-people .cards div h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .many-people .cards div p {
+        font-size: 17px;
+        margin: 30px 0;
+        font-weight: lighter;
+        font-style: italic;
+        color: rgb(100, 99, 99);
+    }
+    
+    .many-people .cards .red-border {
+        border: 9px solid rgb(194, 83, 75);
+        margin: 10px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .many-people .cards .green-border {
+        border: 9px solid rgb(0, 191, 141);
+        margin: 10px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .many-people .cards .blue-border {
+        border: 9px solid rgb(20, 132, 236);
+        margin: 10px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .many-people .cards .orange-border {
+        border: 9px solid rgb(241, 164, 14);
+        margin: 10px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .journey h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .journey .d-flex {
+        display: flex;
+        width: 65%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    
+    .journey .left-side {
+        width: 48%;
+    }
+    
+    .journey .left-side .blue-phone {
+        text-align: right;
+        height: 230px;
+        padding: 20px;
+        border-right: 8px solid rgb(20, 132, 236);
+        margin: 25px 0;
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px 0 0 20px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .journey .left-side .blue-phone img {
+        width: 75PX;
+        height: 75PX;
+        background-color: rgb(20, 132, 236);
+        border-radius: 24px;
+        padding: 9px;
+        text-align: right;
+    }
+    
+    .journey .left-side .blue-phone p {
+        margin: 15px 0;
+        font-size: 17px;
+        line-height: 25px;
+        color: rgb(100, 99, 99);
+    }
+    
+    .journey .left-side .red-setting {
+        border-right: 8px solid rgb(194, 83, 75);
+        margin: 25px 0;
+        padding: 10px;
+        text-align: right;
+        height: 230px;
+        padding: 20px;
+        border-radius: 20px 0 0 20px;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+    
+    .journey .left-side .red-setting img {
+        width: 75PX;
+        height: 75PX;
+        background-color: rgb(194, 83, 75);
+        border-radius: 24px;
+        padding: 11px;
+    }
+    
+    .journey .left-side .red-setting p {
+        margin: 15px 0;
+        font-size: 17px;
+        line-height: 25px;
+        color: rgb(100, 99, 99);
+    }
+    
+    .journey .right-side {
+        width: 48%;
+        margin-top: 130px;
+    }
+    
+    .journey .right-side .orange-setting {
+        border-left: 8px solid rgb(241, 164, 14);
+        margin: 25px 0;
+        padding: 10px;
+        height: 230px;
+        padding: 20px;
+        border-radius: 0px 20px 20px 0px;
+        animation: fadeSlideAndGrow 2s ease-in-out;
+    }
+    
+    .journey .right-side .orange-setting img {
+        width: 75PX;
+        height: 75PX;
+        border-radius: 24px;
+        padding: 11px;
+        background-color: rgb(241, 164, 14);
+    }
+    
+    .journey .right-side .orange-setting p {
+        margin: 15px 0;
+        font-size: 17px;
+        line-height: 25px;
+        color: rgb(100, 99, 99);
+    }
+    
+    .journey .right-side .green-phone {
+        border-left: 8px solid rgb(0, 191, 141);
+        margin: 25px 0;
+        background-color: rgb(242, 242, 242);
+        padding: 10px;
+        height: 230px;
+        padding: 20px;
+        border-radius: 0px 20px 20px 0px;
+        animation: fadeSlideAndGrow 2s ease-in-out;
+    }
+    
+    .journey .right-side .green-phone img {
+        width: 75PX;
+        height: 75PX;
+        border-radius: 24px;
+        padding: 9px;
+        background-color: rgb(0, 191, 141);
+    }
+    
+    .journey .right-side .green-phone p {
+        margin: 15px 0;
+        font-size: 17px;
+        line-height: 25px;
+        color: rgb(100, 99, 99);
+    }

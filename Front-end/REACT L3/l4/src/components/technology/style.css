@@ -1,0 +1,56 @@
+.btn-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-group button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.8s;
+}
+
+.btn-group button:hover {
+    background-color: #0056b3;
+}
+
+.product-container {
+    margin-top: 134px;
+    margin-left: 330px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    user-select: none;
+}
+
+.product {
+    background-color: rgb(239, 212, 176);
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+.product img {
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.product h2 {
+    margin-bottom: 151px;
+    user-select: none;
+}
+
+.product p {
+    margin: 30px 0;
+    user-select: none;
+}

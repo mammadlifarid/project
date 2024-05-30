@@ -1,0 +1,78 @@
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.contact-info,
+.contact-form,
+.map {
+    width: 30%;
+    margin: 20px;
+}
+
+.contact-info h2,
+.contact-form h2,
+.map h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-info p,
+.contact-form p,
+.map p {
+    color: #666;
+    line-height: 1.6;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.contact-info ul,
+.contact-form ul,
+.map ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li,
+.contact-form li,
+.map li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+button:hover {
+    background-color: #444;
+}

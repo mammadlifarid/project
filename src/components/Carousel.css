@@ -1,0 +1,24 @@
+.gradient-bg {
+    background-color: black;
+}
+
+.Image-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.Image-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.Image-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

@@ -1,0 +1,81 @@
+.reviews-container {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 70px;
+    max-height: 100%;
+}
+
+.reviews-heading {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.star {
+    color: gold;
+}
+
+.comment {
+    font-style: italic;
+}
+
+.useful {
+    font-size: 0.8em;
+}
+
+.action-buttons {
+    margin-top: 10px;
+}
+
+.like-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.dislike-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.like-count {
+    margin-left: 0px;
+}
+
+.dislike-count {
+    margin-left: 30px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(122, 122, 122, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    animation: fadeIn 1s, fadeOut 2s 2s;
+}

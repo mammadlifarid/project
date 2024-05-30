@@ -1,0 +1,22 @@
+.ourproducts {
+    text-align: center;
+}
+
+.main-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: linear-gradient(to left, #1f1f1f, #858585, #222222);
+    font-family: Arial, sans-serif;
+    box-shadow: black;
+    box-shadow: 3px 3px 51px rgba(0, 0, 0, 0.6);
+}
+
+.ourproducts {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+}

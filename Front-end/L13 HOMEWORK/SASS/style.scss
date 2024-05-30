@@ -1,0 +1,225 @@
+@import "_colors";
+@import "_defaults";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    outline: none !important;
+}
+
+.photo-1 {
+    position: absolute;
+    width: 1000px;
+    bottom: 40px;
+    height: 860px;
+    left: 100px;
+    margin-left: 700px;
+}
+
+.mindfullnes {
+    background-color: #f2f2f2;
+    height: 838px;
+}
+
+.first-h2 {
+    color: black;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+.first-p {
+    color: black;
+    position: absolute;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    left: 300px;
+    top: 390px;
+    word-spacing: 5px;
+    font-weight: 400;
+}
+
+.photo-2 {
+    width: 250px;
+    position: absolute;
+    height: 80px;
+    bottom: 170px;
+    left: 300px;
+}
+
+.systematic {
+    text-align: center;
+    width: 70%;
+    margin: 50px auto;
+    h1 {
+        font-size: $bmd_fs;
+        font-weight: 600;
+        line-height: 50px;
+        width: 100%;
+        margin: 30px 0;
+    }
+    p {
+        font-size: $sm_fs;
+    }
+    a {
+        color: black;
+    }
+}
+
+.many-people {
+    position: relative;
+    margin-top: 180px;
+    img {
+        width: 100%;
+        height: 50vh;
+    }
+    .cards {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+        position: absolute;
+        z-index: 10;
+        bottom: 300px;
+        left: 240px;
+        div {
+            padding: 10px;
+            width: 23%;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+            h4 {
+                font-size: $md_fs;
+                margin: 10px 0;
+            }
+            p {
+                margin: 30px 0;
+                font-weight: lighter;
+                font-style: italic;
+                color: grey;
+            }
+        }
+        .red-border {
+            border: 9px solid green;
+        }
+        .green-border {
+            border: 9px solid red;
+        }
+        .blue-border {
+            border: 9px solid orange;
+        }
+        .orange-border {
+            border: 9px solid orange;
+        }
+    }
+}
+
+.journey {
+    h1 {
+        font-weight: 600;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .d-flex {
+        display: flex;
+        width: 65%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .left-side {
+        width: 48%;
+        .blue-phone {
+            text-align: right;
+            height: 230px;
+            padding: 20px;
+            border-right: 8px solid blue;
+            margin: 25px 0;
+            background-color: grey;
+            border-radius: 20px 0 0 20px;
+            img {
+                width: 75PX;
+                height: 75PX;
+                background-color: blues;
+                border-radius: 24px;
+                padding: 9px;
+                text-align: right;
+            }
+            p {
+                margin: 15px 0;
+                line-height: 25px;
+                color: grey;
+            }
+        }
+        .red-setting {
+            border-right: 8px solid red;
+            margin: 25px 0;
+            padding: 10px;
+            text-align: right;
+            height: 230px;
+            padding: 20px;
+            border-radius: 20px 0 0 20px;
+            img {
+                width: 75PX;
+                height: 75PX;
+                background-color: red;
+                border-radius: 24px;
+                padding: 11px;
+            }
+            p {
+                margin: 15px 0;
+                font-size: 30px;
+                line-height: 25px;
+                color: grey;
+            }
+        }
+    }
+    .right-side {
+        width: 48%;
+        margin-top: 130px;
+        .orange-setting {
+            border-left: 8px solid orange;
+            margin: 25px 0;
+            padding: 10px;
+            height: 230px;
+            padding: 20px;
+            border-radius: 0px 20px 20px 0px;
+            img {
+                width: 75px;
+                height: 75px;
+                border-radius: 24px;
+                padding: 11px;
+                background-color: orange;
+            }
+            p {
+                margin: 15px 0;
+                line-height: 25px;
+                color: grey;
+            }
+        }
+        .green-phone {
+            border-left: 8px solid green;
+            margin: 25px 0;
+            background-color: grey;
+            padding: 10px;
+            height: 230px;
+            padding: 20px;
+            border-radius: 0px 20px 20px 0px;
+            img {
+                width: 75PX;
+                height: 75PX;
+                border-radius: 24px;
+                padding: 9px;
+                background-color: green;
+            }
+            p {
+                margin: 15px 0;
+                font-size: $sm_fs;
+                line-height: 25px;
+                color: grey;
+            }
+        }
+    }
+}
